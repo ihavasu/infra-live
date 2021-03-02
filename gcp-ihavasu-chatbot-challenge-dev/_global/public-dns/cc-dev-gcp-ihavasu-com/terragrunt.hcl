@@ -5,7 +5,7 @@
 
 terraform {
   # https://github.com/ihavasu/infra-modules/tree/main/gcp/networking/cloud-dns-public"
-  source = "git::git@github.com:ihavasu/infra-modules/gcp/networking/cloud-dns-public"
+  source = "git::git@github.com:ihavasu/infra-modules//gcp/networking/cloud-dns-public"
 }
 
 include {

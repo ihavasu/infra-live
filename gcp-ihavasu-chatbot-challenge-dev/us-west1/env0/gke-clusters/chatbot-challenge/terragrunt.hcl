@@ -5,7 +5,7 @@
 
 terraform {
   # https://github.com/ihavasu/infra-modules/tree/main/gcp/gke/public-cluster"
-  source = "git::git@github.com:ihavasu/infra-modules/gcp/gke/public-cluster"
+  source = "git::git@github.com:ihavasu/infra-modules//gcp/gke/public-cluster"
 }
 
 include {
